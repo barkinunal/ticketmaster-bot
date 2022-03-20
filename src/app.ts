@@ -10,4 +10,4 @@ bot.launch();
 
 setInterval(() => {
   ticketmaster.getAppEventDetails(bot);
-}, 5000);
+}, 30 * 1000);
