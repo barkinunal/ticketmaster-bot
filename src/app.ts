@@ -13,7 +13,7 @@ setInterval(() => {
 }, 30 * 1000);
 
 app.get("/", (req, res) => {
-  logger.info('"/" is requested.');
+  logger.requestInfo("/");
   res.send("Hello World!");
 });
 
